@@ -1,0 +1,14 @@
+<ul>
+	<table class="table-hover table-bordered table-striped">
+    <tr>
+    	<th>Name</th>
+    	<th>Description</th>
+    	<th>Price (L) size</th>
+    </tr>
+    <tr ng-repeat="item in $ctrl.items">
+		<td>{{ item.name }}</td>
+		<td>{{ item.description }}</td>
+		<td>{{ item.price_large }}</td>
+	</tr>
+	</table>
+</ul>
